@@ -20,12 +20,9 @@ int main()
     scanf("%d", &opc);
     while (opc != 0)
     {
-        switch (opc)
-        {
-        case 1:
             puts("Ingreso un uno:\n");
-            break;
-        }
+            puts("Ingrese otro valor:\n");
+            scanf("%d", &opc);
     }
     return 0;
 }
